@@ -12,6 +12,8 @@ photoCover:string = "";
 @Input()
 smallCardTitle:string = "";
 
+@Input()
+id:string = "0";
 
   constructor(){}
   ngOnInit(): void { }
